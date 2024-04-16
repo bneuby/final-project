@@ -1,0 +1,146 @@
+body {
+    overscroll-behavior-y: none;
+  }
+
+  a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+  }
+
+.header-one {
+    position: fixed;
+    display: flex;
+    height: 64px;
+    background-color:black;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.left-head{
+    margin-top:16px;
+    margin-right: 20px;
+    display: flex;
+    width: 20%;
+    height: 50%;
+    justify-content: space-evenly;
+}
+
+.supplements-athletes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    padding-right: 20%;
+}
+
+
+.center-logo{
+    display: flex;
+    width:15%;
+    border: 1px solid black;
+    margin: 0 15vw;
+    justify-content: center;
+}
+
+.right-head{
+    margin-top:16px;
+    display: flex;
+    width: 20%;
+    height: 50%;
+    justify-content:space-evenly;
+    padding-left: 10%;
+}
+
+.create-account{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+}
+
+.make-it-flex{
+    display: flex;
+    width: 50vw;
+    margin-left: 25vw;
+    height: 75vh;
+    border: 1px black solid;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.account-set-up{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 63px;
+    height: 5vh;
+    justify-content: center;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.create-username{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.create-password{
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    padding-left: 15.5vw;
+}
+
+.arnold{
+    display: flex;
+    width: 50vw;
+    
+}
+
+.arms{
+    display: flex;
+    width: 100vw;
+    margin-top: 10px;
+    height: 48.6vh;
+}
+
+
+.footer {
+    margin-top: 10vh;
+    padding-top: 2%;
+    display: flex;
+    height: 15vh;
+    background-color: black;
+    flex-direction: column;
+
+}
+
+.footer-info{
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    height: 30%;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-text{
+    padding: 10px 27% 0 27%;
+    color: white;
+    display: flex;
+    height: 60%;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
